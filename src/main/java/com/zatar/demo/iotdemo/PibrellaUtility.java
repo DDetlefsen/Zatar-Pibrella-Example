@@ -8,8 +8,8 @@ import com.pi4j.device.pibrella.impl.PibrellaDevice;
 public class PibrellaUtility {
 	private static final String ON = "On";
 	private static final String OFF = "Off";
-	private static final String UP = "Up";
-	private static final String DOWN = "Down";
+	//private static final String UP = "Up";
+	//private static final String DOWN = "Down";
 	private static final String RELEASED = "Released";
 	private static final String PRESSED = "Pressed";
 	public Pibrella pibrella;
