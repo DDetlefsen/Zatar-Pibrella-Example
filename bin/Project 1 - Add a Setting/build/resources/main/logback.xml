@@ -1,0 +1,14 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder
+            by default -->
+        <encoder>
+            <pattern>%green(%date{yyyy-MM-dd HH:mm:ss.SSS}) %highlight(%-5level)
+                %green([%-15.15thread{14}]) %cyan(%-40.40logger{39}) %green(:) %message%n
+            </pattern>
+        </encoder>
+    </appender>
+    <root level="OFF">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
